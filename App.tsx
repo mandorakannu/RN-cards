@@ -1,10 +1,13 @@
-import { View, Text } from "react-native";
 import React from "react";
+import { SafeAreaView, ScrollView } from "react-native";
+import FlatCards from "./components/FlatCards";
 
 export default function App() {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <SafeAreaView>
+      <ScrollView>
+        <FlatCards />
+      </ScrollView>
+    </SafeAreaView>
   );
 }
